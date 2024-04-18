@@ -56,7 +56,7 @@ module "cbr_rules" {
   version          = "1.20.1"
   depends_on       = [module.secrets_manager_arbitrary_secret]
   rule_description = "For schematic agent demo, limit operations on the secrets manager to only originating from agent VPC"
-  enforcement_mode = "report"
+  enforcement_mode = "disabled"
   rule_contexts = [
     {
       attributes = [

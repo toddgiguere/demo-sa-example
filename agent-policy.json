@@ -1,0 +1,16 @@
+{
+    "target": {
+        "selector_kind": "ids",
+        "selector_ids": [
+            "demo-sa-agent.soA.ae88"
+        ]
+    },
+    "parameter": {
+        "agent_assignment_policy_parameter": {
+            "selector_kind": "ids",
+            "selector_ids": [
+                "us-east.workspace.demo-sa-retrieve-secret-from-agent.33b93983"
+            ]
+        }
+    }
+}
